@@ -1,0 +1,131 @@
+/*Fonts*********************/
+@font-face {
+  font-family: FjallaOne;
+  src: url(fonts/Fjalla_One/FjallaOne-Regular.ttf);
+
+}
+
+@font-face {
+  font-family: Merriweather;
+  src: url(fonts/Merriweather/Merriweather-Regular.ttf);
+
+}
+
+/*Fonts***********************/
+body{
+  display: flex;
+    justify-content: center;
+    background: lightgrey;
+}
+
+img{
+  width: 500px;
+
+}
+
+#container{
+  position: relative;
+  top: 25px;
+  width: 800px;
+
+}
+
+#bestplaces{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  color: DodgerBlue;
+  font-family: FjallaOne;
+  font-size: 40px;
+
+}
+
+#content-box{
+  background:#fff;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+#image1 img{
+  width: 100%;
+
+}
+
+#milleniumpark{
+  display: flex;
+  justify-content: center;
+  font-family: FjallaOne;
+}
+
+#navypier{
+  display: flex;
+  justify-content: center;
+  font-family: FjallaOne;
+}
+
+#willistower{
+  display: flex;
+  justify-content: center;
+  font-family: FjallaOne;
+
+}
+
+#buckinghamfountain{
+  display: flex;
+  justify-content: center;
+  font-family: FjallaOne;
+
+}
+
+#artinstitute{
+  display: flex;
+  justify-content: center;
+  font-family: FjallaOne;
+
+}
+
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  list-style-type: none;
+  padding: 0px;
+  font-family: Merriweather;
+  font-size: 14px;
+
+}
+
+li{
+  margin: 10px;
+
+}
+
+a{
+  position: relative;
+  text-decoration: none;
+  color: grey;
+  padding: 5px;
+
+}
+
+a:hover{
+  color: grey;
+  background: white;
+
+}
+
+a:active{
+  color: #6495ED;
+}
+
+a:link{
+  color: black;
+
+}
+
+a:visited{
+  color: black;
+
+}
