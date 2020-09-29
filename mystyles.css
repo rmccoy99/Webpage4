@@ -11,6 +11,12 @@
 
 }
 
+@font-face {
+  font-family: Montserrat;
+  src: url(fonts/Montserrat/Montserrat-SemiBold.ttf);
+
+}
+
 /*Fonts***********************/
 body{
   display: flex;
@@ -58,43 +64,81 @@ body{
   background:#fff;
   padding: 15px;
   margin-bottom: 20px;
+  box-shadow: 10px 10px 5px lightgrey;
 }
 
-#image1 img{
-  width: 100%;
+#image1{
+  overflow: hidden;
+
+}
+
+#image1 figure{
+  position: relative;
+  width: 500%;
+  margin:0;
+  left: 0;
+  animation: 20s image1 infinite;
+
+}
+
+#image1 figure img{
+  width: 20%;
+  float: left;
+
+}
+
+@keyframes image1 {
+  0% {
+    left: 0;
+  }
+  20%{
+    left: 0;
+  }
+  25%{
+    left: -100%;
+  }
+  45%{
+    left: -100%;
+  }
+  50%{
+    left: -200%;
+  }
+  70%{
+    left: -200%;
+  }
 
 }
 
 #milleniumpark{
   display: flex;
   justify-content: center;
-  font-family: FjallaOne;
+  font-family: Montserrat;
 }
 
 #navypier{
   display: flex;
   justify-content: center;
-  font-family: FjallaOne;
+  font-family: Montserrat;
 }
 
 #willistower{
   display: flex;
   justify-content: center;
-  font-family: FjallaOne;
+  font-family: Montserrat;
 
 }
 
 #buckinghamfountain{
   display: flex;
   justify-content: center;
-  font-family: FjallaOne;
+  font-family: Montserrat;
 
 }
 
 #artinstitute{
   display: flex;
   justify-content: center;
-  font-family: FjallaOne;
+  font-family: Montserrat;
 
 }
 
