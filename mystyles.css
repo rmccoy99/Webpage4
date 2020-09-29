@@ -17,6 +17,12 @@
 
 }
 
+@font-face {
+  font-family: BebasNeue;
+  src: url(fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+
+}
+
 /*Fonts***********************/
 body{
   display: flex;
@@ -61,10 +67,11 @@ body{
 }
 
 #content-box{
-  background:#fff;
-  padding: 15px;
+  background:#f2f2f2;
+  padding: 5px;
   margin-bottom: 20px;
-  box-shadow: 10px 10px 5px lightgrey;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+
 }
 
 #image1{
@@ -112,33 +119,45 @@ body{
 #milleniumpark{
   display: flex;
   justify-content: center;
-  font-family: Montserrat;
+  font-family: BebasNeue;
+  font-stretch: ultra-expanded;
+  font-size: 50px;
+
 }
 
 #navypier{
   display: flex;
   justify-content: center;
-  font-family: Montserrat;
+  font-family: BebasNeue;
+  font-stretch: ultra-expanded;
+  font-size: 50px;
+
 }
 
 #willistower{
   display: flex;
   justify-content: center;
-  font-family: Montserrat;
+  font-family: BebasNeue;
+  font-stretch: ultra-expanded;
+  font-size: 50px;
 
 }
 
 #buckinghamfountain{
   display: flex;
   justify-content: center;
-  font-family: Montserrat;
+  font-family: BebasNeue;
+  font-stretch: ultra-expanded;
+  font-size: 50px;
 
 }
 
 #artinstitute{
   display: flex;
   justify-content: center;
-  font-family: Montserrat;
+  font-family: BebasNeue;
+  font-stretch: ultra-expanded;
+  font-size: 45px;
 
 }
 
