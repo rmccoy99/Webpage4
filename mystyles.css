@@ -15,12 +15,13 @@
 body{
   display: flex;
     justify-content: center;
-    background: #F5F5F5;
-}
-
-img{
-  width: 500px;
-
+    background: repeating-linear-gradient(
+  to right,
+  #F5F5F5,
+  #F5F5F5 10px,
+  #f2f2f2 10px,
+  #f2f2f2 20px
+);
 }
 
 #container{
@@ -30,12 +31,24 @@ img{
 
 }
 
+#chicagologo {
+  display: flex;
+  justify-content: center;
+
+}
+
+#chicagologo img{
+  width: 275px;
+  height: 75px;
+
+}
+
 #bestplaces{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 50px;
-  color: DodgerBlue;
+  margin-bottom: 15px;
+  color: #00ace6;
   font-family: FjallaOne;
   font-size: 50px;
 
@@ -110,27 +123,13 @@ li{
 a{
   position: relative;
   text-decoration: none;
-  color: grey;
+  color: #e60000;
   padding: 5px;
 
 }
 
 a:hover{
-  color: grey;
+  color: black;
   background: white;
-
-}
-
-a:active{
-  color: #6495ED;
-}
-
-a:link{
-  color: black;
-
-}
-
-a:visited{
-  color: black;
 
 }
